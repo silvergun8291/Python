@@ -1,6 +1,6 @@
 import pymysql
 
-conn = pymysql.connect(host='127.0.0.1', user='root', password='toor', db='py_db', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='root', password='*****', db='py_db', charset='utf8')
 cur = conn.cursor()
 
 cur.execute("SELECT * FROM userTable")
